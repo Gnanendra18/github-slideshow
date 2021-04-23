@@ -4,7 +4,8 @@ title: "Welcome to our awesome slide!"
 ---
 I am changing as per the requirements. Github is awesome 
 Testing github desktop
-Use the left arrow to go back!
+Use the left arrow to go back!:tada:
+I am adding new lines
 ---------------------------------
 git 
 
