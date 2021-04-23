@@ -1,6 +1,54 @@
 ---
 layout: slide
-title: "Welcome to our second slide!"
+title: "Welcome to our awesome slide!"
 ---
-I am changing as per the requirements @Gnanendra Kumar.
-Use the left arrow to go back!
+I am changing as per the requirements. Github is awesome 
+git is distributed version control system
+github built on top of git
+
+git configurations need to setup initially 
+system level -- allusers
+global -- user level
+local -- project level
+
+git config --global user.name "gnanendra18"
+git config --global user.email "tognanendrakumar@gmail.com"
+
+to check what it set use without value
+
+git flow
+
+git clone https://abcd.git
+
+navigate to repository using cd dirname
+
+git branch branchname //create a branch with given name
+
+git branch --all // lists all the branches in the repository
+
+git push --set-upstream origin branchName //push the branch into the repository
+
+Committing a file
+git checkout my-slide //switching to given branch name
+git status // you will know which branch you are working on
+after checking out add the content in your files and then stage them
+git add _posts/soandsofile.xyz
+git commit -m "initial commit"
+git push
+create a pull request to introduce your changes. other teams can review your changes
+go to pull requests and select compare to with your branch and add a comment and create a pull request in github
+
+once you create a pull request if you have any reviews respond to that review
+check out to your current branch
+git checkout my-slide //if you have moved between branches earlier make sure again checkout your current branch
+git status// confirm the branch and any other staged files are there or not using this command
+git pull// pull the latest files from vcs
+modify the required files and then add to staging
+git add _posts/soandsofile.xyz // now the file is in staging alternatively use git add .
+
+Merge the pull request
+git chekout main //checkout the main branch
+git pull //get latest changes if any in main branch
+git merge my-slide //merge the branch you want to merge
+git push //push the merge request
+
