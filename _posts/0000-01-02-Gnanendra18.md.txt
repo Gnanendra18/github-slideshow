@@ -3,6 +3,11 @@ layout: slide
 title: "Welcome to our awesome slide!"
 ---
 I am changing as per the requirements. Github is awesome 
+Testing github desktop
+Use the left arrow to go back!
+---------------------------------
+git 
+
 git is distributed version control system
 github built on top of git
 
@@ -16,6 +21,7 @@ git config --global user.email "tognanendrakumar@gmail.com"
 
 to check what it set use without value
 
+----------------
 git flow
 
 git clone https://abcd.git
@@ -45,10 +51,14 @@ git status// confirm the branch and any other staged files are there or not usin
 git pull// pull the latest files from vcs
 modify the required files and then add to staging
 git add _posts/soandsofile.xyz // now the file is in staging alternatively use git add .
+git commit -m "with new message"
 
 Merge the pull request
 git chekout main //checkout the main branch
 git pull //get latest changes if any in main branch
 git merge my-slide //merge the branch you want to merge
 git push //push the merge request
+git branch -d my-slide //delete the branch from locally
+//also delete the branch from github ui from server
+
 
